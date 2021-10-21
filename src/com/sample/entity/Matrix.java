@@ -33,7 +33,7 @@ public class Matrix {
     }
 
     public void selfPrint() {
-        System.out.print("Our matrix blyat:\n");
+        System.out.print("Our matrix:\n");
         for (int j = 0; j < matrix.length; j++) {
             for (int y = 0; y < matrix[0].length; y++) {
                 System.out.print(matrix[j][y] + "\t");
